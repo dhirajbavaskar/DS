@@ -163,7 +163,7 @@ void printList(struct Node* node)
 int main(){
      int choice =0;  
      struct Node* node;
-     struct Node* head
+     struct Node* head;
      int new_data,key,newData,position,data;
 
     while(choice != 8)   
@@ -184,6 +184,8 @@ int main(){
         switch(choice)  
         {  
             case 1:  
+            printf("Enter Data");
+            scanf("%d",&new_data);
             createNode(new_data);      
             break;  
             case 2:  
